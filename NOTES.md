@@ -9,8 +9,8 @@ Read replication is still work in progress and therefore still has some limitati
 These are the known ones:
 
 - PostgreSQL backend is not supported
-- [Changes to auth mounts and secret mounts require restart of follower nodes](https://github.com/openbao/openbao/pull/1733)
 - The [Remount API](https://openbao.org/api-docs/system/remount/) is untested and will probably cause problems. Restart of follower nodes is recommended.
+- User Lockout does not work on standbys
 
 
 ## Installing
